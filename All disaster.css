@@ -1,0 +1,70 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;    
+}
+.banner {
+    width: 100%;
+    height: 16vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(93, 162, 102, 0.305)),url(Natural\ Disaster\ Front.we);
+    background-size: cover;
+    background-position: absolute;
+}
+.image {
+    border: #02e7d0;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.first {
+    position: relative;
+    left: 45%;
+}
+body {
+    background-image: linear-gradient(rgba(124, 100, 113, 0.38)),rgba(rgba(112, 202, 121, 0.38)),url(Pink\ and\ White\ Minimalist\ Initial\ Makeup\ Artist\ Logo.png)
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;    
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #02e7d0 ;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+span{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Words CSS */
+.paragraph { 
+    font-size: 20;
+    line-height: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1 { 
+    text-align: center;
+    font-size: 40; 
+}
